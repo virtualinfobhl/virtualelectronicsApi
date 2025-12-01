@@ -1,0 +1,50 @@
+﻿@model CityStoreAPIWeb.Models.Loc_City
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Loc_City</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Code)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Code)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.District_Code)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.District_Code)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Priority)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Priority)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Active)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Active)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="friendsmobileModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="friendsmobileModelStoreContainer">
+    <EntitySet Name="AdminLogin" EntityType="friendsmobileModel.Store.AdminLogin" store:Type="Tables" store:Schema="dbo" store:Name="AdminLogin">
+      <DefiningQuery>SELECT 
+      [AdminLogin].[Id] AS [Id], 
+      [AdminLogin].[Username] AS [Username], 
+      [AdminLogin].[Password] AS [Password]
+      FROM [dbo].[AdminLogin] AS [AdminLogin]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="blog_detail" EntityType="friendsmobileModel.Store.blog_detail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="brand" EntityType="friendsmobileModel.Store.brand" store:Type="Tables" store:Schema="dbo" store:Name="brand">
+      <DefiningQuery>SELECT 
+      [brand].[brandid] AS [brandid], 
+      [brand].[brandName] AS [brandName], 
+      [brand].[image] AS [image], 
+      [brand].[Active] AS [Active]
+      FROM [dbo].[brand] AS [brand]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Color" EntityType="friendsmobileModel.Store.Color" store:Type="Tables" store:Schema="dbo" store:Name="Color">
+      <DefiningQuery>SELECT 
+      [Color].[ColorId] AS [ColorId], 
+      [Color].[ColorName] AS [ColorName], 
+      [Color].[ColorValue] AS [ColorValue], 
+      [Color].[Colorimg] AS [Colorimg]
+      FROM [dbo].[Color] AS [Color]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Courier_Detail" EntityType="friendsmobileModel.Store.Courier_Detail" store:Type="Tables" store:Schema="dbo" store:Name="Courier_Detail">
+      <DefiningQuery>SELECT 
+      [Courier_Detail].[Id] AS [Id], 
+      [Courier_Detail].[FromWeight] AS [FromWeight], 
+      [Courier_Detail].[ToWeight] AS [ToWeight], 
+      [Courier_Detail].[Unit] AS [Unit], 
+      [Courier_Detail].[RajCourier_Fees] AS [RajCourier_Fees], 
+      [Courier_Detail].[RajCourier_Name] AS [RajCourier_Name], 
+      [Courier_Detail].[NICourier_Fees] AS [NICourier_Fees], 
+      [Courier_Detail].[NICourier_Name] AS [NICourier_Name], 
+      [Courier_Detail].[ROICourier_Fees] AS [ROICourier_Fees], 
+      [Courier_Detail].[ROICourier_Name] AS [ROICourier_Name], 
+      [Courier_Detail].[NECourier_Fees] AS [NECourier_Fees], 
+      [Courier_Detail].[NECourier_Name] AS [NECourier_Name]
+      FROM [dbo].[Courier_Detail] AS [Courier_Detail]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="dtl_ProductGallery" EntityType="friendsmobileModel.Store.dtl_ProductGallery" store:Type="Tables" store:Schema="dbo" store:Name="dtl_ProductGallery">
+      <DefiningQuery>SELECT 
+      [dtl_ProductGallery].[Image_Id] AS [Image_Id], 
+      [dtl_ProductGallery].[Product_Id] AS [Product_Id], 
+      [dtl_ProductGallery].[Priority] AS [Priority], 
+      [dtl_ProductGallery].[Active] AS [Active], 
+      [dtl_ProductGallery].[ImageCode] AS [ImageCode], 
+      [dtl_ProductGallery].[ColorId] AS [ColorId]
+      FROM [dbo].[dtl_ProductGallery] AS [dtl_ProductGallery]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Gallery" EntityType="friendsmobileModel.Store.Gallery" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Loc_District" EntityType="friendsmobileModel.Store.Loc_District" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Loc_State" EntityType="friendsmobileModel.Store.Loc_State" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="M_CategoryMaster" EntityType="friendsmobileModel.Store.M_CategoryMaster" store:Type="Tables" store:Schema="dbo" store:Name="M_CategoryMaster">
+      <DefiningQuery>SELECT 
+      [M_CategoryMaster].[MainCategoryid] AS [MainCategoryid], 
+      [M_CategoryMaster].[MainCategoryName] AS [MainCategoryName], 
+      [M_CategoryMaster].[image] AS [image], 
+      [M_CategoryMaster].[Active] AS [Active]
+      FROM [dbo].[M_CategoryMaster] AS [M_CategoryMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="product" EntityType="friendsmobileModel.Store.product" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductSizeQuantity" EntityType="friendsmobileModel.Store.ProductSizeQuantity" store:Type="Tables" store:Schema="dbo" store:Name="ProductSizeQuantity">
+      <DefiningQuery>SELECT 
+      [ProductSizeQuantity].[ID] AS [ID], 
+      [ProductSizeQuantity].[ProductID] AS [ProductID], 
+      [ProductSizeQuantity].[Size] AS [Size], 
+      [ProductSizeQuantity].[Quantity] AS [Quantity], 
+      [ProductSizeQuantity].[RTS] AS [RTS], 
+      [ProductSizeQuantity].[ColorId] AS [ColorId], 
+      [ProductSizeQuantity].[urate] AS [urate], 
+      [ProductSizeQuantity].[udiscount] AS [udiscount], 
+      [ProductSizeQuantity].[arate] AS [arate], 
+      [ProductSizeQuantity].[adiscount] AS [adiscount]
+      FROM [dbo].[ProductSizeQuantity] AS [ProductSizeQuantity]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="register" EntityType="friendsmobileModel.Store.register" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="temp_ProColorSize" EntityType="friendsmobileModel.Store.temp_ProColorSize" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="temp_progallery" EntityType="friendsmobileModel.Store.temp_progallery" store:Type="Tables" store:Schema="dbo" store:Name="temp_progallery">
+      <DefiningQuery>SELECT 
+      [temp_progallery].[Image_Id] AS [Image_Id], 
+      [temp_progallery].[Product_Id] AS [Product_Id], 
+      [temp_progallery].[Priority] AS [Priority], 
+      [temp_progallery].[Active] AS [Active], 
+      [temp_progallery].[ImageCode] AS [ImageCode], 
+      [temp_progallery].[ColorId] AS [ColorId], 
+      [temp_progallery].[random_no] AS [random_no], 
+      [temp_progallery].[AID] AS [AID]
+      FROM [dbo].[temp_progallery] AS [temp_progallery]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TrnCart" EntityType="friendsmobileModel.Store.TrnCart" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TrnOrderDetail" EntityType="friendsmobileModel.Store.TrnOrderDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TrnOrderMain" EntityType="friendsmobileModel.Store.TrnOrderMain" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TrnWallet" EntityType="friendsmobileModel.Store.TrnWallet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="varient" EntityType="friendsmobileModel.Store.varient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="wishlist" EntityType="friendsmobileModel.Store.wishlist" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.AdminLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="AdminLogin">
+    <Key>
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="Id" Type="int" />
+    <Property Name="Username" Type="nvarchar(max)" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="blog_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="active" Type="bit" />
+    <Property Name="title" Type="nvarchar" MaxLength="255" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="entrydate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.brand' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="brand">
+    <Key>
+      <PropertyRef Name="brandName" />
+    </Key>
+    <Property Name="brandid" Type="int" />
+    <Property Name="brandName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="Active" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.Color' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="ColorId" Type="int" Nullable="false" />
+    <Property Name="ColorName" Type="nvarchar(max)" />
+    <Property Name="ColorValue" Type="nvarchar(max)" />
+    <Property Name="Colorimg" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.Courier_Detail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Courier_Detail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FromWeight" Type="nvarchar(max)" />
+    <Property Name="ToWeight" Type="nvarchar(max)" />
+    <Property Name="Unit" Type="nvarchar(max)" />
+    <Property Name="RajCourier_Fees" Type="nvarchar(max)" />
+    <Property Name="RajCourier_Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="NICourier_Fees" Type="nvarchar(max)" />
+    <Property Name="NICourier_Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="ROICourier_Fees" Type="nvarchar(max)" />
+    <Property Name="ROICourier_Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="NECourier_Fees" Type="nvarchar(max)" />
+    <Property Name="NECourier_Name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.dtl_ProductGallery' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="dtl_ProductGallery">
+    <Key>
+      <PropertyRef Name="Image_Id" />
+      <PropertyRef Name="ImageCode" />
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="Image_Id" Type="int" Nullable="false" />
+    <Property Name="Product_Id" Type="int" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="ImageCode" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ColorId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="ActiveStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="Loc_District">
+    <Key>
+      <PropertyRef Name="District_Code" />
+    </Key>
+    <Property Name="District_Code" Type="smallint" Nullable="false" />
+    <Property Name="District_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="State_Code" Type="smallint" Nullable="false" />
+    <Property Name="District_Priority" Type="tinyint" Nullable="false" />
+    <Property Name="District_Active" Type="bit" Nullable="false" />
+    <Property Name="DisCode" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Loc_State">
+    <Key>
+      <PropertyRef Name="State_Code" />
+    </Key>
+    <Property Name="State_Code" Type="smallint" Nullable="false" />
+    <Property Name="State_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Country_Code" Type="smallint" Nullable="false" />
+    <Property Name="State_Priority" Type="tinyint" Nullable="false" />
+    <Property Name="State_Active" Type="bit" Nullable="false" />
+    <Property Name="CourierState" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.M_CategoryMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="M_CategoryMaster">
+    <Key>
+      <PropertyRef Name="MainCategoryName" />
+    </Key>
+    <Property Name="MainCategoryid" Type="int" />
+    <Property Name="MainCategoryName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="Active" Type="bit" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Name="categoryid" Type="int" />
+    <Property Name="productid" Type="int" Nullable="false" />
+    <Property Name="productname" Type="nvarchar(max)" />
+    <Property Name="qty" Type="int" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="Brandid" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="sale" Type="bit" />
+    <Property Name="active" Type="bit" />
+    <Property Name="visit" Type="int" />
+    <Property Name="rts" Type="datetime" />
+    <Property Name="metatitle" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.ProductSizeQuantity' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ProductSizeQuantity">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Size" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="RTS" />
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Size" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Quantity" Type="numeric" Nullable="false" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+    <Property Name="ColorId" Type="int" Nullable="false" />
+    <Property Name="urate" Type="int" />
+    <Property Name="udiscount" Type="int" />
+    <Property Name="arate" Type="int" />
+    <Property Name="adiscount" Type="int" />
+  </EntityType>
+  <EntityType Name="register">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="District" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZipCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="MobileNumber" Type="varchar(max)" />
+    <Property Name="password" Type="varchar(max)" />
+    <Property Name="rts" Type="datetime" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="ip" Type="varchar" MaxLength="15" />
+    <Property Name="Wallet" Type="numeric" Nullable="false" />
+    <Property Name="OrderCount" Type="int" />
+    <Property Name="Groupid" Type="int" />
+    <Property Name="gst" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="temp_ProColorSize">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="product_id" Type="int" />
+    <Property Name="size" Type="nvarchar" MaxLength="50" />
+    <Property Name="quantity" Type="numeric" />
+    <Property Name="rts" Type="datetime" />
+    <Property Name="colorid" Type="int" />
+    <Property Name="urate" Type="int" />
+    <Property Name="udiscount" Type="int" />
+    <Property Name="arate" Type="int" />
+    <Property Name="adiscount" Type="int" />
+    <Property Name="random_no" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.temp_progallery' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="temp_progallery">
+    <Key>
+      <PropertyRef Name="ImageCode" />
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="Image_Id" Type="nvarchar(max)" />
+    <Property Name="Product_Id" Type="int" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="ImageCode" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ColorId" Type="int" />
+    <Property Name="random_no" Type="nvarchar" MaxLength="50" />
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TrnCart">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CartId" Type="int" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Size" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Color" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ActiveStatus" Type="bit" Nullable="false" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TrnOrderDetail">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InvoiceNo" Type="int" Nullable="false" />
+    <Property Name="DisInvoiceNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="StoreId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Unit" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Weight" Type="numeric" Nullable="false" />
+    <Property Name="Quantity" Type="numeric" Nullable="false" />
+    <Property Name="Rate" Type="numeric" Nullable="false" />
+    <Property Name="Size" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Color" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Cashback" Type="numeric" Nullable="false" />
+    <Property Name="Amount" Type="numeric" Nullable="false" />
+    <Property Name="Discount" Type="numeric" Nullable="false" />
+    <Property Name="NetAmount" Type="numeric" Nullable="false" />
+    <Property Name="Cancelled" Type="bit" Nullable="false" />
+    <Property Name="Delivered" Type="bit" Nullable="false" />
+    <Property Name="Returned" Type="bit" Nullable="false" />
+    <Property Name="Dispatched" Type="bit" Nullable="false" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+    <Property Name="DeliveryDate" Type="datetime" Nullable="false" />
+    <Property Name="DeliveryCharges" Type="numeric" Nullable="false" />
+    <Property Name="AdditionalCharges" Type="numeric" Nullable="false" />
+    <Property Name="RequestReason" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="remark" Type="nvarchar(max)" />
+    <Property Name="pickupby" Type="int" />
+    <Property Name="deliveredby" Type="int" />
+    <Property Name="sid" Type="int" />
+  </EntityType>
+  <EntityType Name="TrnOrderMain">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="Usercode" Type="int" Nullable="false" />
+    <Property Name="OrderAmount" Type="numeric" Nullable="false" />
+    <Property Name="WalletAmount" Type="numeric" Nullable="false" />
+    <Property Name="PaidAmount" Type="numeric" Nullable="false" />
+    <Property Name="TotalQuantity" Type="numeric" Nullable="false" />
+    <Property Name="DeliveryFees" Type="numeric" Nullable="false" />
+    <Property Name="Amount" Type="numeric" Nullable="false" />
+    <Property Name="Paymode" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="TrnId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TrnStatus" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="OrderThrough" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ShippingName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ShippingAddress" Type="varchar(max)" Nullable="false" />
+    <Property Name="ShippingMobileNo" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="ShippingEmailId" Type="varchar(max)" Nullable="false" />
+    <Property Name="ShippingCity" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ShippingZipcode" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ShippingStats" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Delivered" Type="bit" Nullable="false" />
+    <Property Name="Cancelled" Type="bit" Nullable="false" />
+    <Property Name="Returned" Type="bit" Nullable="false" />
+    <Property Name="Dispatched" Type="bit" Nullable="false" />
+    <Property Name="Settlement" Type="bit" Nullable="false" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+    <Property Name="DeliveryDate" Type="datetime" Nullable="false" />
+    <Property Name="PromoCodeId" Type="int" Nullable="false" />
+    <Property Name="PromoCodeAmount" Type="int" Nullable="false" />
+    <Property Name="DeliveryboyId" Type="int" Nullable="false" />
+    <Property Name="FranchiseMessage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="remark" Type="nvarchar(max)" />
+    <Property Name="sid" Type="int" />
+  </EntityType>
+  <EntityType Name="TrnWallet">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="OrderId" Type="int" />
+    <Property Name="TrnType" Type="varchar" MaxLength="50" />
+    <Property Name="PromoCodeAmount" Type="numeric" />
+    <Property Name="Amount" Type="numeric" />
+    <Property Name="IsDeducted" Type="bit" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+    <Property Name="OrderType" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Type" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ReMark" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="varient">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="varient" Type="nvarchar(max)" />
+    <Property Name="active" Type="bit" />
+    <Property Name="rts" Type="datetime" />
+  </EntityType>
+  <EntityType Name="wishlist">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CartId" Type="int" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Size" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Color" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ActiveStatus" Type="bit" Nullable="false" />
+    <Property Name="RTS" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.ads' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="ads">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.appslider' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="appslider">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="priority" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.Counter' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Counter">
+        <Property Name="Count" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.list' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="list">
+        <Property Name="id" Type="int" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="short" Type="varchar" MaxLength="255" />
+        <Property Name="descr" Type="nvarchar(max)" />
+        <Property Name="img" Type="varchar" MaxLength="255" />
+        <Property Name="rts" Type="varchar" MaxLength="255" />
+        <Property Name="visit" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.M_AppVersionMaster' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="M_AppVersionMaster">
+        <Property Name="versionNo" Type="varchar" MaxLength="255" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.sessiontest' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="sessiontest">
+        <Property Name="id" Type="int" />
+        <Property Name="sid" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.slist' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="slist">
+        <Property Name="id" Type="int" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="img" Type="varchar" MaxLength="255" />
+        <Property Name="descr" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="date" Type="varchar" MaxLength="255" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.webslider' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="webslider">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="feature" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="priority" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>-->
+</Schema>

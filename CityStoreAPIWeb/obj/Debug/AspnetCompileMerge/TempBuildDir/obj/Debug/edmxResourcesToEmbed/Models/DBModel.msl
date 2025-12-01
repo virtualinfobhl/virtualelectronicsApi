@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="friendsmobileModelStoreContainer" CdmEntityContainer="friendsmobileEntities">
+    <EntitySetMapping Name="AdminLogins">
+      <EntityTypeMapping TypeName="friendsmobileModel.AdminLogin">
+        <MappingFragment StoreEntitySet="AdminLogin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="blog_detail">
+      <EntityTypeMapping TypeName="friendsmobileModel.blog_detail">
+        <MappingFragment StoreEntitySet="blog_detail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="entrydate" ColumnName="entrydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="brands">
+      <EntityTypeMapping TypeName="friendsmobileModel.brand">
+        <MappingFragment StoreEntitySet="brand">
+          <ScalarProperty Name="brandid" ColumnName="brandid" />
+          <ScalarProperty Name="brandName" ColumnName="brandName" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Colors">
+      <EntityTypeMapping TypeName="friendsmobileModel.Color">
+        <MappingFragment StoreEntitySet="Color">
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+          <ScalarProperty Name="ColorValue" ColumnName="ColorValue" />
+          <ScalarProperty Name="Colorimg" ColumnName="Colorimg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courier_Detail">
+      <EntityTypeMapping TypeName="friendsmobileModel.Courier_Detail">
+        <MappingFragment StoreEntitySet="Courier_Detail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FromWeight" ColumnName="FromWeight" />
+          <ScalarProperty Name="ToWeight" ColumnName="ToWeight" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="RajCourier_Fees" ColumnName="RajCourier_Fees" />
+          <ScalarProperty Name="RajCourier_Name" ColumnName="RajCourier_Name" />
+          <ScalarProperty Name="NICourier_Fees" ColumnName="NICourier_Fees" />
+          <ScalarProperty Name="NICourier_Name" ColumnName="NICourier_Name" />
+          <ScalarProperty Name="ROICourier_Fees" ColumnName="ROICourier_Fees" />
+          <ScalarProperty Name="ROICourier_Name" ColumnName="ROICourier_Name" />
+          <ScalarProperty Name="NECourier_Fees" ColumnName="NECourier_Fees" />
+          <ScalarProperty Name="NECourier_Name" ColumnName="NECourier_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtl_ProductGallery">
+      <EntityTypeMapping TypeName="friendsmobileModel.dtl_ProductGallery">
+        <MappingFragment StoreEntitySet="dtl_ProductGallery">
+          <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ImageCode" ColumnName="ImageCode" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Galleries">
+      <EntityTypeMapping TypeName="friendsmobileModel.Gallery">
+        <MappingFragment StoreEntitySet="Gallery">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loc_District">
+      <EntityTypeMapping TypeName="friendsmobileModel.Loc_District">
+        <MappingFragment StoreEntitySet="Loc_District">
+          <ScalarProperty Name="District_Code" ColumnName="District_Code" />
+          <ScalarProperty Name="District_Name" ColumnName="District_Name" />
+          <ScalarProperty Name="State_Code" ColumnName="State_Code" />
+          <ScalarProperty Name="District_Priority" ColumnName="District_Priority" />
+          <ScalarProperty Name="District_Active" ColumnName="District_Active" />
+          <ScalarProperty Name="DisCode" ColumnName="DisCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loc_State">
+      <EntityTypeMapping TypeName="friendsmobileModel.Loc_State">
+        <MappingFragment StoreEntitySet="Loc_State">
+          <ScalarProperty Name="State_Code" ColumnName="State_Code" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+          <ScalarProperty Name="State_Priority" ColumnName="State_Priority" />
+          <ScalarProperty Name="State_Active" ColumnName="State_Active" />
+          <ScalarProperty Name="CourierState" ColumnName="CourierState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_CategoryMaster">
+      <EntityTypeMapping TypeName="friendsmobileModel.M_CategoryMaster">
+        <MappingFragment StoreEntitySet="M_CategoryMaster">
+          <ScalarProperty Name="MainCategoryid" ColumnName="MainCategoryid" />
+          <ScalarProperty Name="MainCategoryName" ColumnName="MainCategoryName" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSizeQuantities">
+      <EntityTypeMapping TypeName="friendsmobileModel.ProductSizeQuantity">
+        <MappingFragment StoreEntitySet="ProductSizeQuantity">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="urate" ColumnName="urate" />
+          <ScalarProperty Name="udiscount" ColumnName="udiscount" />
+          <ScalarProperty Name="arate" ColumnName="arate" />
+          <ScalarProperty Name="adiscount" ColumnName="adiscount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="registers">
+      <EntityTypeMapping TypeName="friendsmobileModel.register">
+        <MappingFragment StoreEntitySet="register">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="rts" ColumnName="rts" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="Wallet" ColumnName="Wallet" />
+          <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+          <ScalarProperty Name="Groupid" ColumnName="Groupid" />
+          <ScalarProperty Name="gst" ColumnName="gst" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="temp_ProColorSize">
+      <EntityTypeMapping TypeName="friendsmobileModel.temp_ProColorSize">
+        <MappingFragment StoreEntitySet="temp_ProColorSize">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="rts" ColumnName="rts" />
+          <ScalarProperty Name="colorid" ColumnName="colorid" />
+          <ScalarProperty Name="urate" ColumnName="urate" />
+          <ScalarProperty Name="udiscount" ColumnName="udiscount" />
+          <ScalarProperty Name="arate" ColumnName="arate" />
+          <ScalarProperty Name="adiscount" ColumnName="adiscount" />
+          <ScalarProperty Name="random_no" ColumnName="random_no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="temp_progallery">
+      <EntityTypeMapping TypeName="friendsmobileModel.temp_progallery">
+        <MappingFragment StoreEntitySet="temp_progallery">
+          <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ImageCode" ColumnName="ImageCode" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="random_no" ColumnName="random_no" />
+          <ScalarProperty Name="AID" ColumnName="AID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrnCarts">
+      <EntityTypeMapping TypeName="friendsmobileModel.TrnCart">
+        <MappingFragment StoreEntitySet="TrnCart">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrnOrderDetails">
+      <EntityTypeMapping TypeName="friendsmobileModel.TrnOrderDetail">
+        <MappingFragment StoreEntitySet="TrnOrderDetail">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="DisInvoiceNo" ColumnName="DisInvoiceNo" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Cashback" ColumnName="Cashback" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="NetAmount" ColumnName="NetAmount" />
+          <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+          <ScalarProperty Name="Delivered" ColumnName="Delivered" />
+          <ScalarProperty Name="Returned" ColumnName="Returned" />
+          <ScalarProperty Name="Dispatched" ColumnName="Dispatched" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+          <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
+          <ScalarProperty Name="DeliveryCharges" ColumnName="DeliveryCharges" />
+          <ScalarProperty Name="AdditionalCharges" ColumnName="AdditionalCharges" />
+          <ScalarProperty Name="RequestReason" ColumnName="RequestReason" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="pickupby" ColumnName="pickupby" />
+          <ScalarProperty Name="deliveredby" ColumnName="deliveredby" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrnOrderMains">
+      <EntityTypeMapping TypeName="friendsmobileModel.TrnOrderMain">
+        <MappingFragment StoreEntitySet="TrnOrderMain">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="Usercode" ColumnName="Usercode" />
+          <ScalarProperty Name="OrderAmount" ColumnName="OrderAmount" />
+          <ScalarProperty Name="WalletAmount" ColumnName="WalletAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="TotalQuantity" ColumnName="TotalQuantity" />
+          <ScalarProperty Name="DeliveryFees" ColumnName="DeliveryFees" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Paymode" ColumnName="Paymode" />
+          <ScalarProperty Name="TrnId" ColumnName="TrnId" />
+          <ScalarProperty Name="TrnStatus" ColumnName="TrnStatus" />
+          <ScalarProperty Name="OrderThrough" ColumnName="OrderThrough" />
+          <ScalarProperty Name="ShippingName" ColumnName="ShippingName" />
+          <ScalarProperty Name="ShippingAddress" ColumnName="ShippingAddress" />
+          <ScalarProperty Name="ShippingMobileNo" ColumnName="ShippingMobileNo" />
+          <ScalarProperty Name="ShippingEmailId" ColumnName="ShippingEmailId" />
+          <ScalarProperty Name="ShippingCity" ColumnName="ShippingCity" />
+          <ScalarProperty Name="ShippingZipcode" ColumnName="ShippingZipcode" />
+          <ScalarProperty Name="ShippingStats" ColumnName="ShippingStats" />
+          <ScalarProperty Name="Delivered" ColumnName="Delivered" />
+          <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+          <ScalarProperty Name="Returned" ColumnName="Returned" />
+          <ScalarProperty Name="Dispatched" ColumnName="Dispatched" />
+          <ScalarProperty Name="Settlement" ColumnName="Settlement" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+          <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
+          <ScalarProperty Name="PromoCodeId" ColumnName="PromoCodeId" />
+          <ScalarProperty Name="PromoCodeAmount" ColumnName="PromoCodeAmount" />
+          <ScalarProperty Name="DeliveryboyId" ColumnName="DeliveryboyId" />
+          <ScalarProperty Name="FranchiseMessage" ColumnName="FranchiseMessage" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrnWallets">
+      <EntityTypeMapping TypeName="friendsmobileModel.TrnWallet">
+        <MappingFragment StoreEntitySet="TrnWallet">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="TrnType" ColumnName="TrnType" />
+          <ScalarProperty Name="PromoCodeAmount" ColumnName="PromoCodeAmount" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="IsDeducted" ColumnName="IsDeducted" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ReMark" ColumnName="ReMark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wishlists">
+      <EntityTypeMapping TypeName="friendsmobileModel.wishlist">
+        <MappingFragment StoreEntitySet="wishlist">
+          <ScalarProperty Name="AID" ColumnName="AID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+          <ScalarProperty Name="RTS" ColumnName="RTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="friendsmobileModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="metatitle" ColumnName="metatitle" />
+          <ScalarProperty Name="rts" ColumnName="rts" />
+          <ScalarProperty Name="visit" ColumnName="visit" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="sale" ColumnName="sale" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="varients">
+      <EntityTypeMapping TypeName="friendsmobileModel.varient">
+        <MappingFragment StoreEntitySet="varient">
+          <ScalarProperty Name="rts" ColumnName="rts" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="varient1" ColumnName="varient" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

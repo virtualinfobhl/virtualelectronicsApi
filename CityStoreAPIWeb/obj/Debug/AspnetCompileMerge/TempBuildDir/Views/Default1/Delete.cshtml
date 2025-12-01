@@ -1,0 +1,53 @@
+﻿@model CityStoreAPIWeb.Models.Loc_City
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Loc_City</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Code)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Code)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.District_Code)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.District_Code)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Priority)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Priority)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City_Active)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City_Active)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

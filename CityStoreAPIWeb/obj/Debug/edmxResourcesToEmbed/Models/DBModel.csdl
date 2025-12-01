@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="friendsmobileModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="friendsmobileEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="AdminLogins" EntityType="friendsmobileModel.AdminLogin" />
+    <EntitySet Name="blog_detail" EntityType="friendsmobileModel.blog_detail" />
+    <EntitySet Name="brands" EntityType="friendsmobileModel.brand" />
+    <EntitySet Name="Colors" EntityType="friendsmobileModel.Color" />
+    <EntitySet Name="Courier_Detail" EntityType="friendsmobileModel.Courier_Detail" />
+    <EntitySet Name="dtl_ProductGallery" EntityType="friendsmobileModel.dtl_ProductGallery" />
+    <EntitySet Name="Galleries" EntityType="friendsmobileModel.Gallery" />
+    <EntitySet Name="Loc_District" EntityType="friendsmobileModel.Loc_District" />
+    <EntitySet Name="Loc_State" EntityType="friendsmobileModel.Loc_State" />
+    <EntitySet Name="M_CategoryMaster" EntityType="friendsmobileModel.M_CategoryMaster" />
+    <EntitySet Name="ProductSizeQuantities" EntityType="friendsmobileModel.ProductSizeQuantity" />
+    <EntitySet Name="registers" EntityType="friendsmobileModel.register" />
+    <EntitySet Name="temp_ProColorSize" EntityType="friendsmobileModel.temp_ProColorSize" />
+    <EntitySet Name="temp_progallery" EntityType="friendsmobileModel.temp_progallery" />
+    <EntitySet Name="TrnCarts" EntityType="friendsmobileModel.TrnCart" />
+    <EntitySet Name="TrnOrderDetails" EntityType="friendsmobileModel.TrnOrderDetail" />
+    <EntitySet Name="TrnOrderMains" EntityType="friendsmobileModel.TrnOrderMain" />
+    <EntitySet Name="TrnWallets" EntityType="friendsmobileModel.TrnWallet" />
+    <EntitySet Name="wishlists" EntityType="friendsmobileModel.wishlist" />
+    <EntitySet Name="products" EntityType="friendsmobileModel.product" />
+    <EntitySet Name="varients" EntityType="friendsmobileModel.varient" />
+  </EntityContainer>
+  <EntityType Name="AdminLogin">
+    <Key>
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="Id" Type="Int32" />
+    <Property Name="Username" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="blog_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="title" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="entrydate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="brand">
+    <Key>
+      <PropertyRef Name="brandName" />
+    </Key>
+    <Property Name="brandid" Type="Int32" />
+    <Property Name="brandName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="ColorId" Type="Int32" Nullable="false" />
+    <Property Name="ColorName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ColorValue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Colorimg" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Courier_Detail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FromWeight" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ToWeight" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Unit" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RajCourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RajCourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="NICourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NICourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ROICourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ROICourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="NECourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NECourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="dtl_ProductGallery">
+    <Key>
+      <PropertyRef Name="Image_Id" />
+      <PropertyRef Name="ImageCode" />
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="Image_Id" Type="Int32" Nullable="false" />
+    <Property Name="Product_Id" Type="Int32" />
+    <Property Name="Priority" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="ImageCode" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ColorId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ActiveStatus" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Loc_District">
+    <Key>
+      <PropertyRef Name="District_Code" />
+    </Key>
+    <Property Name="District_Code" Type="Int16" Nullable="false" />
+    <Property Name="District_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="State_Code" Type="Int16" Nullable="false" />
+    <Property Name="District_Priority" Type="Byte" Nullable="false" />
+    <Property Name="District_Active" Type="Boolean" Nullable="false" />
+    <Property Name="DisCode" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Loc_State">
+    <Key>
+      <PropertyRef Name="State_Code" />
+    </Key>
+    <Property Name="State_Code" Type="Int16" Nullable="false" />
+    <Property Name="State_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Country_Code" Type="Int16" Nullable="false" />
+    <Property Name="State_Priority" Type="Byte" Nullable="false" />
+    <Property Name="State_Active" Type="Boolean" Nullable="false" />
+    <Property Name="CourierState" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="M_CategoryMaster">
+    <Key>
+      <PropertyRef Name="MainCategoryName" />
+    </Key>
+    <Property Name="MainCategoryid" Type="Int32" />
+    <Property Name="MainCategoryName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="ProductSizeQuantity">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Size" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="RTS" />
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Size" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Quantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ColorId" Type="Int32" Nullable="false" />
+    <Property Name="urate" Type="Int32" />
+    <Property Name="udiscount" Type="Int32" />
+    <Property Name="arate" Type="Int32" />
+    <Property Name="adiscount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="register">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="State" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="District" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MobileNumber" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="rts" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="ip" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Wallet" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="OrderCount" Type="Int32" />
+    <Property Name="Groupid" Type="Int32" />
+    <Property Name="gst" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="temp_ProColorSize">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="size" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="quantity" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="rts" Type="DateTime" Precision="3" />
+    <Property Name="colorid" Type="Int32" />
+    <Property Name="urate" Type="Int32" />
+    <Property Name="udiscount" Type="Int32" />
+    <Property Name="arate" Type="Int32" />
+    <Property Name="adiscount" Type="Int32" />
+    <Property Name="random_no" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="temp_progallery">
+    <Key>
+      <PropertyRef Name="ImageCode" />
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="Image_Id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Product_Id" Type="Int32" />
+    <Property Name="Priority" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="ImageCode" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ColorId" Type="Int32" />
+    <Property Name="random_no" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TrnCart">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="CartId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Size" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Color" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ActiveStatus" Type="Boolean" Nullable="false" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="TrnOrderDetail">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="InvoiceNo" Type="Int32" Nullable="false" />
+    <Property Name="DisInvoiceNo" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="StoreId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Unit" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Weight" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Quantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Rate" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Size" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Color" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cashback" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Discount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="NetAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Cancelled" Type="Boolean" Nullable="false" />
+    <Property Name="Delivered" Type="Boolean" Nullable="false" />
+    <Property Name="Returned" Type="Boolean" Nullable="false" />
+    <Property Name="Dispatched" Type="Boolean" Nullable="false" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DeliveryDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DeliveryCharges" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="AdditionalCharges" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="RequestReason" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="remark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pickupby" Type="Int32" />
+    <Property Name="deliveredby" Type="Int32" />
+    <Property Name="sid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TrnOrderMain">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="Usercode" Type="Int32" Nullable="false" />
+    <Property Name="OrderAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="WalletAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="PaidAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="TotalQuantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="DeliveryFees" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Paymode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TrnId" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TrnStatus" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="OrderThrough" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingAddress" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingMobileNo" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingEmailId" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingCity" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingZipcode" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ShippingStats" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Delivered" Type="Boolean" Nullable="false" />
+    <Property Name="Cancelled" Type="Boolean" Nullable="false" />
+    <Property Name="Returned" Type="Boolean" Nullable="false" />
+    <Property Name="Dispatched" Type="Boolean" Nullable="false" />
+    <Property Name="Settlement" Type="Boolean" Nullable="false" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DeliveryDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PromoCodeId" Type="Int32" Nullable="false" />
+    <Property Name="PromoCodeAmount" Type="Int32" Nullable="false" />
+    <Property Name="DeliveryboyId" Type="Int32" Nullable="false" />
+    <Property Name="FranchiseMessage" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="remark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="sid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TrnWallet">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="OrderId" Type="Int32" />
+    <Property Name="TrnType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PromoCodeAmount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IsDeducted" Type="Boolean" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OrderType" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ReMark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="wishlist">
+    <Key>
+      <PropertyRef Name="AID" />
+    </Key>
+    <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="CartId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Size" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Color" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ActiveStatus" Type="Boolean" Nullable="false" />
+    <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Type="Int32" Name="categoryid" />
+    <Property Type="Int32" Name="productid" Nullable="false" />
+    <Property Type="String" Name="productname" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="qty" />
+    <Property Type="String" Name="image" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Brandid" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="sale" />
+    <Property Type="Boolean" Name="active" />
+    <Property Type="Int32" Name="visit" />
+    <Property Type="DateTime" Name="rts" Precision="3" />
+    <Property Type="String" Name="metatitle" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="varient">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="varient1" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="active" />
+    <Property Type="DateTime" Name="rts" Precision="3" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="friendsmobileModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="friendsmobileModelStoreContainer">
+          <EntitySet Name="AdminLogin" EntityType="friendsmobileModel.Store.AdminLogin" store:Type="Tables" store:Schema="dbo" store:Name="AdminLogin">
+            <DefiningQuery>SELECT 
+      [AdminLogin].[Id] AS [Id], 
+      [AdminLogin].[Username] AS [Username], 
+      [AdminLogin].[Password] AS [Password]
+      FROM [dbo].[AdminLogin] AS [AdminLogin]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="blog_detail" EntityType="friendsmobileModel.Store.blog_detail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="brand" EntityType="friendsmobileModel.Store.brand" store:Type="Tables" store:Schema="dbo" store:Name="brand">
+            <DefiningQuery>SELECT 
+      [brand].[brandid] AS [brandid], 
+      [brand].[brandName] AS [brandName], 
+      [brand].[image] AS [image], 
+      [brand].[Active] AS [Active]
+      FROM [dbo].[brand] AS [brand]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Color" EntityType="friendsmobileModel.Store.Color" store:Type="Tables" store:Schema="dbo" store:Name="Color">
+            <DefiningQuery>SELECT 
+      [Color].[ColorId] AS [ColorId], 
+      [Color].[ColorName] AS [ColorName], 
+      [Color].[ColorValue] AS [ColorValue], 
+      [Color].[Colorimg] AS [Colorimg]
+      FROM [dbo].[Color] AS [Color]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Courier_Detail" EntityType="friendsmobileModel.Store.Courier_Detail" store:Type="Tables" store:Schema="dbo" store:Name="Courier_Detail">
+            <DefiningQuery>SELECT 
+      [Courier_Detail].[Id] AS [Id], 
+      [Courier_Detail].[FromWeight] AS [FromWeight], 
+      [Courier_Detail].[ToWeight] AS [ToWeight], 
+      [Courier_Detail].[Unit] AS [Unit], 
+      [Courier_Detail].[RajCourier_Fees] AS [RajCourier_Fees], 
+      [Courier_Detail].[RajCourier_Name] AS [RajCourier_Name], 
+      [Courier_Detail].[NICourier_Fees] AS [NICourier_Fees], 
+      [Courier_Detail].[NICourier_Name] AS [NICourier_Name], 
+      [Courier_Detail].[ROICourier_Fees] AS [ROICourier_Fees], 
+      [Courier_Detail].[ROICourier_Name] AS [ROICourier_Name], 
+      [Courier_Detail].[NECourier_Fees] AS [NECourier_Fees], 
+      [Courier_Detail].[NECourier_Name] AS [NECourier_Name]
+      FROM [dbo].[Courier_Detail] AS [Courier_Detail]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="dtl_ProductGallery" EntityType="friendsmobileModel.Store.dtl_ProductGallery" store:Type="Tables" store:Schema="dbo" store:Name="dtl_ProductGallery">
+            <DefiningQuery>SELECT 
+      [dtl_ProductGallery].[Image_Id] AS [Image_Id], 
+      [dtl_ProductGallery].[Product_Id] AS [Product_Id], 
+      [dtl_ProductGallery].[Priority] AS [Priority], 
+      [dtl_ProductGallery].[Active] AS [Active], 
+      [dtl_ProductGallery].[ImageCode] AS [ImageCode], 
+      [dtl_ProductGallery].[ColorId] AS [ColorId]
+      FROM [dbo].[dtl_ProductGallery] AS [dtl_ProductGallery]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Gallery" EntityType="friendsmobileModel.Store.Gallery" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Loc_District" EntityType="friendsmobileModel.Store.Loc_District" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Loc_State" EntityType="friendsmobileModel.Store.Loc_State" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="M_CategoryMaster" EntityType="friendsmobileModel.Store.M_CategoryMaster" store:Type="Tables" store:Schema="dbo" store:Name="M_CategoryMaster">
+            <DefiningQuery>SELECT 
+      [M_CategoryMaster].[MainCategoryid] AS [MainCategoryid], 
+      [M_CategoryMaster].[MainCategoryName] AS [MainCategoryName], 
+      [M_CategoryMaster].[image] AS [image], 
+      [M_CategoryMaster].[Active] AS [Active]
+      FROM [dbo].[M_CategoryMaster] AS [M_CategoryMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="product" EntityType="friendsmobileModel.Store.product" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProductSizeQuantity" EntityType="friendsmobileModel.Store.ProductSizeQuantity" store:Type="Tables" store:Schema="dbo" store:Name="ProductSizeQuantity">
+            <DefiningQuery>SELECT 
+      [ProductSizeQuantity].[ID] AS [ID], 
+      [ProductSizeQuantity].[ProductID] AS [ProductID], 
+      [ProductSizeQuantity].[Size] AS [Size], 
+      [ProductSizeQuantity].[Quantity] AS [Quantity], 
+      [ProductSizeQuantity].[RTS] AS [RTS], 
+      [ProductSizeQuantity].[ColorId] AS [ColorId], 
+      [ProductSizeQuantity].[urate] AS [urate], 
+      [ProductSizeQuantity].[udiscount] AS [udiscount], 
+      [ProductSizeQuantity].[arate] AS [arate], 
+      [ProductSizeQuantity].[adiscount] AS [adiscount]
+      FROM [dbo].[ProductSizeQuantity] AS [ProductSizeQuantity]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="register" EntityType="friendsmobileModel.Store.register" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="temp_ProColorSize" EntityType="friendsmobileModel.Store.temp_ProColorSize" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="temp_progallery" EntityType="friendsmobileModel.Store.temp_progallery" store:Type="Tables" store:Schema="dbo" store:Name="temp_progallery">
+            <DefiningQuery>SELECT 
+      [temp_progallery].[Image_Id] AS [Image_Id], 
+      [temp_progallery].[Product_Id] AS [Product_Id], 
+      [temp_progallery].[Priority] AS [Priority], 
+      [temp_progallery].[Active] AS [Active], 
+      [temp_progallery].[ImageCode] AS [ImageCode], 
+      [temp_progallery].[ColorId] AS [ColorId], 
+      [temp_progallery].[random_no] AS [random_no], 
+      [temp_progallery].[AID] AS [AID]
+      FROM [dbo].[temp_progallery] AS [temp_progallery]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TrnCart" EntityType="friendsmobileModel.Store.TrnCart" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TrnOrderDetail" EntityType="friendsmobileModel.Store.TrnOrderDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TrnOrderMain" EntityType="friendsmobileModel.Store.TrnOrderMain" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TrnWallet" EntityType="friendsmobileModel.Store.TrnWallet" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="varient" EntityType="friendsmobileModel.Store.varient" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="wishlist" EntityType="friendsmobileModel.Store.wishlist" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.AdminLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="AdminLogin">
+          <Key>
+            <PropertyRef Name="Password" />
+          </Key>
+          <Property Name="Id" Type="int" />
+          <Property Name="Username" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="blog_detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="active" Type="bit" />
+          <Property Name="title" Type="nvarchar" MaxLength="255" />
+          <Property Name="description" Type="nvarchar(max)" />
+          <Property Name="image" Type="nvarchar(max)" />
+          <Property Name="entrydate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.brand' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="brand">
+          <Key>
+            <PropertyRef Name="brandName" />
+          </Key>
+          <Property Name="brandid" Type="int" />
+          <Property Name="brandName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="image" Type="nvarchar(max)" />
+          <Property Name="Active" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.Color' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Color">
+          <Key>
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="ColorId" Type="int" Nullable="false" />
+          <Property Name="ColorName" Type="nvarchar(max)" />
+          <Property Name="ColorValue" Type="nvarchar(max)" />
+          <Property Name="Colorimg" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.Courier_Detail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Courier_Detail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FromWeight" Type="nvarchar(max)" />
+          <Property Name="ToWeight" Type="nvarchar(max)" />
+          <Property Name="Unit" Type="nvarchar(max)" />
+          <Property Name="RajCourier_Fees" Type="nvarchar(max)" />
+          <Property Name="RajCourier_Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="NICourier_Fees" Type="nvarchar(max)" />
+          <Property Name="NICourier_Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="ROICourier_Fees" Type="nvarchar(max)" />
+          <Property Name="ROICourier_Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="NECourier_Fees" Type="nvarchar(max)" />
+          <Property Name="NECourier_Name" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.dtl_ProductGallery' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="dtl_ProductGallery">
+          <Key>
+            <PropertyRef Name="Image_Id" />
+            <PropertyRef Name="ImageCode" />
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="Image_Id" Type="int" Nullable="false" />
+          <Property Name="Product_Id" Type="int" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="ImageCode" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ColorId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Gallery">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="image" Type="nvarchar(max)" />
+          <Property Name="ActiveStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="Loc_District">
+          <Key>
+            <PropertyRef Name="District_Code" />
+          </Key>
+          <Property Name="District_Code" Type="smallint" Nullable="false" />
+          <Property Name="District_Name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="State_Code" Type="smallint" Nullable="false" />
+          <Property Name="District_Priority" Type="tinyint" Nullable="false" />
+          <Property Name="District_Active" Type="bit" Nullable="false" />
+          <Property Name="DisCode" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Loc_State">
+          <Key>
+            <PropertyRef Name="State_Code" />
+          </Key>
+          <Property Name="State_Code" Type="smallint" Nullable="false" />
+          <Property Name="State_Name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Country_Code" Type="smallint" Nullable="false" />
+          <Property Name="State_Priority" Type="tinyint" Nullable="false" />
+          <Property Name="State_Active" Type="bit" Nullable="false" />
+          <Property Name="CourierState" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.M_CategoryMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="M_CategoryMaster">
+          <Key>
+            <PropertyRef Name="MainCategoryName" />
+          </Key>
+          <Property Name="MainCategoryid" Type="int" />
+          <Property Name="MainCategoryName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="image" Type="nvarchar(max)" />
+          <Property Name="Active" Type="bit" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Name="categoryid" Type="int" />
+          <Property Name="productid" Type="int" Nullable="false" />
+          <Property Name="productname" Type="nvarchar(max)" />
+          <Property Name="qty" Type="int" />
+          <Property Name="image" Type="nvarchar(max)" />
+          <Property Name="Brandid" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="sale" Type="bit" />
+          <Property Name="active" Type="bit" />
+          <Property Name="visit" Type="int" />
+          <Property Name="rts" Type="datetime" />
+          <Property Name="metatitle" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.ProductSizeQuantity' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="ProductSizeQuantity">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ProductID" />
+            <PropertyRef Name="Size" />
+            <PropertyRef Name="Quantity" />
+            <PropertyRef Name="RTS" />
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Size" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Quantity" Type="numeric" Nullable="false" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+          <Property Name="ColorId" Type="int" Nullable="false" />
+          <Property Name="urate" Type="int" />
+          <Property Name="udiscount" Type="int" />
+          <Property Name="arate" Type="int" />
+          <Property Name="adiscount" Type="int" />
+        </EntityType>
+        <EntityType Name="register">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="EmailId" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="State" Type="nvarchar" MaxLength="50" />
+          <Property Name="District" Type="nvarchar" MaxLength="50" />
+          <Property Name="City" Type="nvarchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="MobileNumber" Type="varchar(max)" />
+          <Property Name="password" Type="varchar(max)" />
+          <Property Name="rts" Type="datetime" Nullable="false" />
+          <Property Name="active" Type="bit" Nullable="false" />
+          <Property Name="ip" Type="varchar" MaxLength="15" />
+          <Property Name="Wallet" Type="numeric" Nullable="false" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="Groupid" Type="int" />
+          <Property Name="gst" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="temp_ProColorSize">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="product_id" Type="int" />
+          <Property Name="size" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="numeric" />
+          <Property Name="rts" Type="datetime" />
+          <Property Name="colorid" Type="int" />
+          <Property Name="urate" Type="int" />
+          <Property Name="udiscount" Type="int" />
+          <Property Name="arate" Type="int" />
+          <Property Name="adiscount" Type="int" />
+          <Property Name="random_no" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'friendsmobile.dbo.temp_progallery' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="temp_progallery">
+          <Key>
+            <PropertyRef Name="ImageCode" />
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="Image_Id" Type="nvarchar(max)" />
+          <Property Name="Product_Id" Type="int" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="ImageCode" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ColorId" Type="int" />
+          <Property Name="random_no" Type="nvarchar" MaxLength="50" />
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="TrnCart">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="CartId" Type="int" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProductId" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="Size" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Color" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="ActiveStatus" Type="bit" Nullable="false" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrnOrderDetail">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="InvoiceNo" Type="int" Nullable="false" />
+          <Property Name="DisInvoiceNo" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="OrderId" Type="int" Nullable="false" />
+          <Property Name="StoreId" Type="int" Nullable="false" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="Unit" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Weight" Type="numeric" Nullable="false" />
+          <Property Name="Quantity" Type="numeric" Nullable="false" />
+          <Property Name="Rate" Type="numeric" Nullable="false" />
+          <Property Name="Size" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Color" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Cashback" Type="numeric" Nullable="false" />
+          <Property Name="Amount" Type="numeric" Nullable="false" />
+          <Property Name="Discount" Type="numeric" Nullable="false" />
+          <Property Name="NetAmount" Type="numeric" Nullable="false" />
+          <Property Name="Cancelled" Type="bit" Nullable="false" />
+          <Property Name="Delivered" Type="bit" Nullable="false" />
+          <Property Name="Returned" Type="bit" Nullable="false" />
+          <Property Name="Dispatched" Type="bit" Nullable="false" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+          <Property Name="DeliveryDate" Type="datetime" Nullable="false" />
+          <Property Name="DeliveryCharges" Type="numeric" Nullable="false" />
+          <Property Name="AdditionalCharges" Type="numeric" Nullable="false" />
+          <Property Name="RequestReason" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="remark" Type="nvarchar(max)" />
+          <Property Name="pickupby" Type="int" />
+          <Property Name="deliveredby" Type="int" />
+          <Property Name="sid" Type="int" />
+        </EntityType>
+        <EntityType Name="TrnOrderMain">
+          <Key>
+            <PropertyRef Name="OrderId" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="OrderId" Type="int" Nullable="false" />
+          <Property Name="Usercode" Type="int" Nullable="false" />
+          <Property Name="OrderAmount" Type="numeric" Nullable="false" />
+          <Property Name="WalletAmount" Type="numeric" Nullable="false" />
+          <Property Name="PaidAmount" Type="numeric" Nullable="false" />
+          <Property Name="TotalQuantity" Type="numeric" Nullable="false" />
+          <Property Name="DeliveryFees" Type="numeric" Nullable="false" />
+          <Property Name="Amount" Type="numeric" Nullable="false" />
+          <Property Name="Paymode" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="TrnId" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TrnStatus" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="OrderThrough" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="ShippingName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ShippingAddress" Type="varchar(max)" Nullable="false" />
+          <Property Name="ShippingMobileNo" Type="varchar" Nullable="false" MaxLength="12" />
+          <Property Name="ShippingEmailId" Type="varchar(max)" Nullable="false" />
+          <Property Name="ShippingCity" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="ShippingZipcode" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="ShippingStats" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Delivered" Type="bit" Nullable="false" />
+          <Property Name="Cancelled" Type="bit" Nullable="false" />
+          <Property Name="Returned" Type="bit" Nullable="false" />
+          <Property Name="Dispatched" Type="bit" Nullable="false" />
+          <Property Name="Settlement" Type="bit" Nullable="false" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+          <Property Name="DeliveryDate" Type="datetime" Nullable="false" />
+          <Property Name="PromoCodeId" Type="int" Nullable="false" />
+          <Property Name="PromoCodeAmount" Type="int" Nullable="false" />
+          <Property Name="DeliveryboyId" Type="int" Nullable="false" />
+          <Property Name="FranchiseMessage" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="remark" Type="nvarchar(max)" />
+          <Property Name="sid" Type="int" />
+        </EntityType>
+        <EntityType Name="TrnWallet">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="OrderId" Type="int" />
+          <Property Name="TrnType" Type="varchar" MaxLength="50" />
+          <Property Name="PromoCodeAmount" Type="numeric" />
+          <Property Name="Amount" Type="numeric" />
+          <Property Name="IsDeducted" Type="bit" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+          <Property Name="OrderType" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="Type" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="ReMark" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="varient">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="varient" Type="nvarchar(max)" />
+          <Property Name="active" Type="bit" />
+          <Property Name="rts" Type="datetime" />
+        </EntityType>
+        <EntityType Name="wishlist">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="CartId" Type="int" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProductId" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="Size" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Color" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="ActiveStatus" Type="bit" Nullable="false" />
+          <Property Name="RTS" Type="datetime" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.ads' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="ads">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.appslider' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="appslider">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="priority" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.Counter' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Counter">
+        <Property Name="Count" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.list' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="list">
+        <Property Name="id" Type="int" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="short" Type="varchar" MaxLength="255" />
+        <Property Name="descr" Type="nvarchar(max)" />
+        <Property Name="img" Type="varchar" MaxLength="255" />
+        <Property Name="rts" Type="varchar" MaxLength="255" />
+        <Property Name="visit" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.M_AppVersionMaster' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="M_AppVersionMaster">
+        <Property Name="versionNo" Type="varchar" MaxLength="255" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.sessiontest' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="sessiontest">
+        <Property Name="id" Type="int" />
+        <Property Name="sid" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.slist' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="slist">
+        <Property Name="id" Type="int" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="img" Type="varchar" MaxLength="255" />
+        <Property Name="descr" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="date" Type="varchar" MaxLength="255" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'friendsmobile.dbo.webslider' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="webslider">
+        <Property Name="id" Type="int" />
+        <Property Name="image" Type="nvarchar(max)" />
+        <Property Name="title" Type="nvarchar(max)" />
+        <Property Name="feature" Type="nvarchar(max)" />
+        <Property Name="link" Type="nvarchar(max)" />
+        <Property Name="priority" Type="int" />
+        <Property Name="active" Type="bit" />
+      </EntityType>-->
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="friendsmobileModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="friendsmobileEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="AdminLogins" EntityType="friendsmobileModel.AdminLogin" />
+          <EntitySet Name="blog_detail" EntityType="friendsmobileModel.blog_detail" />
+          <EntitySet Name="brands" EntityType="friendsmobileModel.brand" />
+          <EntitySet Name="Colors" EntityType="friendsmobileModel.Color" />
+          <EntitySet Name="Courier_Detail" EntityType="friendsmobileModel.Courier_Detail" />
+          <EntitySet Name="dtl_ProductGallery" EntityType="friendsmobileModel.dtl_ProductGallery" />
+          <EntitySet Name="Galleries" EntityType="friendsmobileModel.Gallery" />
+          <EntitySet Name="Loc_District" EntityType="friendsmobileModel.Loc_District" />
+          <EntitySet Name="Loc_State" EntityType="friendsmobileModel.Loc_State" />
+          <EntitySet Name="M_CategoryMaster" EntityType="friendsmobileModel.M_CategoryMaster" />
+          <EntitySet Name="ProductSizeQuantities" EntityType="friendsmobileModel.ProductSizeQuantity" />
+          <EntitySet Name="registers" EntityType="friendsmobileModel.register" />
+          <EntitySet Name="temp_ProColorSize" EntityType="friendsmobileModel.temp_ProColorSize" />
+          <EntitySet Name="temp_progallery" EntityType="friendsmobileModel.temp_progallery" />
+          <EntitySet Name="TrnCarts" EntityType="friendsmobileModel.TrnCart" />
+          <EntitySet Name="TrnOrderDetails" EntityType="friendsmobileModel.TrnOrderDetail" />
+          <EntitySet Name="TrnOrderMains" EntityType="friendsmobileModel.TrnOrderMain" />
+          <EntitySet Name="TrnWallets" EntityType="friendsmobileModel.TrnWallet" />
+          <EntitySet Name="wishlists" EntityType="friendsmobileModel.wishlist" />
+          <EntitySet Name="products" EntityType="friendsmobileModel.product" />
+          <EntitySet Name="varients" EntityType="friendsmobileModel.varient" />
+        </EntityContainer>
+        <EntityType Name="AdminLogin">
+          <Key>
+            <PropertyRef Name="Password" />
+          </Key>
+          <Property Name="Id" Type="Int32" />
+          <Property Name="Username" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="blog_detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="title" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="entrydate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="brand">
+          <Key>
+            <PropertyRef Name="brandName" />
+          </Key>
+          <Property Name="brandid" Type="Int32" />
+          <Property Name="brandName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Color">
+          <Key>
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="ColorId" Type="Int32" Nullable="false" />
+          <Property Name="ColorName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ColorValue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Colorimg" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Courier_Detail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FromWeight" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ToWeight" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Unit" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="RajCourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="RajCourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="NICourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NICourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="ROICourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ROICourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="NECourier_Fees" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NECourier_Name" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="dtl_ProductGallery">
+          <Key>
+            <PropertyRef Name="Image_Id" />
+            <PropertyRef Name="ImageCode" />
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="Image_Id" Type="Int32" Nullable="false" />
+          <Property Name="Product_Id" Type="Int32" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="ImageCode" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ColorId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Gallery">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ActiveStatus" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Loc_District">
+          <Key>
+            <PropertyRef Name="District_Code" />
+          </Key>
+          <Property Name="District_Code" Type="Int16" Nullable="false" />
+          <Property Name="District_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="State_Code" Type="Int16" Nullable="false" />
+          <Property Name="District_Priority" Type="Byte" Nullable="false" />
+          <Property Name="District_Active" Type="Boolean" Nullable="false" />
+          <Property Name="DisCode" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Loc_State">
+          <Key>
+            <PropertyRef Name="State_Code" />
+          </Key>
+          <Property Name="State_Code" Type="Int16" Nullable="false" />
+          <Property Name="State_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Country_Code" Type="Int16" Nullable="false" />
+          <Property Name="State_Priority" Type="Byte" Nullable="false" />
+          <Property Name="State_Active" Type="Boolean" Nullable="false" />
+          <Property Name="CourierState" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="M_CategoryMaster">
+          <Key>
+            <PropertyRef Name="MainCategoryName" />
+          </Key>
+          <Property Name="MainCategoryid" Type="Int32" />
+          <Property Name="MainCategoryName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="image" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="ProductSizeQuantity">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ProductID" />
+            <PropertyRef Name="Size" />
+            <PropertyRef Name="Quantity" />
+            <PropertyRef Name="RTS" />
+            <PropertyRef Name="ColorId" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Size" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Quantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ColorId" Type="Int32" Nullable="false" />
+          <Property Name="urate" Type="Int32" />
+          <Property Name="udiscount" Type="Int32" />
+          <Property Name="arate" Type="Int32" />
+          <Property Name="adiscount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="register">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="EmailId" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="State" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="District" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ZipCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MobileNumber" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="password" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="rts" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="active" Type="Boolean" Nullable="false" />
+          <Property Name="ip" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="Wallet" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="Groupid" Type="Int32" />
+          <Property Name="gst" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="temp_ProColorSize">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="product_id" Type="Int32" />
+          <Property Name="size" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="quantity" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="rts" Type="DateTime" Precision="3" />
+          <Property Name="colorid" Type="Int32" />
+          <Property Name="urate" Type="Int32" />
+          <Property Name="udiscount" Type="Int32" />
+          <Property Name="arate" Type="Int32" />
+          <Property Name="adiscount" Type="Int32" />
+          <Property Name="random_no" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="temp_progallery">
+          <Key>
+            <PropertyRef Name="ImageCode" />
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="Image_Id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Product_Id" Type="Int32" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="ImageCode" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ColorId" Type="Int32" />
+          <Property Name="random_no" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="TrnCart">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="CartId" Type="Int32" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProductId" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Size" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Color" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ActiveStatus" Type="Boolean" Nullable="false" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="TrnOrderDetail">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="InvoiceNo" Type="Int32" Nullable="false" />
+          <Property Name="DisInvoiceNo" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OrderId" Type="Int32" Nullable="false" />
+          <Property Name="StoreId" Type="Int32" Nullable="false" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+          <Property Name="Unit" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Weight" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Quantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Rate" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Size" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Color" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Cashback" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Discount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="NetAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Cancelled" Type="Boolean" Nullable="false" />
+          <Property Name="Delivered" Type="Boolean" Nullable="false" />
+          <Property Name="Returned" Type="Boolean" Nullable="false" />
+          <Property Name="Dispatched" Type="Boolean" Nullable="false" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DeliveryDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DeliveryCharges" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="AdditionalCharges" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="RequestReason" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="remark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="pickupby" Type="Int32" />
+          <Property Name="deliveredby" Type="Int32" />
+          <Property Name="sid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TrnOrderMain">
+          <Key>
+            <PropertyRef Name="OrderId" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderId" Type="Int32" Nullable="false" />
+          <Property Name="Usercode" Type="Int32" Nullable="false" />
+          <Property Name="OrderAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="WalletAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="PaidAmount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="TotalQuantity" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="DeliveryFees" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="Paymode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="TrnId" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="TrnStatus" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="OrderThrough" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingAddress" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingMobileNo" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingEmailId" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingCity" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingZipcode" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ShippingStats" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Delivered" Type="Boolean" Nullable="false" />
+          <Property Name="Cancelled" Type="Boolean" Nullable="false" />
+          <Property Name="Returned" Type="Boolean" Nullable="false" />
+          <Property Name="Dispatched" Type="Boolean" Nullable="false" />
+          <Property Name="Settlement" Type="Boolean" Nullable="false" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DeliveryDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PromoCodeId" Type="Int32" Nullable="false" />
+          <Property Name="PromoCodeAmount" Type="Int32" Nullable="false" />
+          <Property Name="DeliveryboyId" Type="Int32" Nullable="false" />
+          <Property Name="FranchiseMessage" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="remark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="sid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TrnWallet">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="OrderId" Type="Int32" />
+          <Property Name="TrnType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PromoCodeAmount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="IsDeducted" Type="Boolean" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="OrderType" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Type" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ReMark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="wishlist">
+          <Key>
+            <PropertyRef Name="AID" />
+          </Key>
+          <Property Name="AID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="CartId" Type="Int32" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProductId" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Size" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Color" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ActiveStatus" Type="Boolean" Nullable="false" />
+          <Property Name="RTS" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Type="Int32" Name="categoryid" />
+          <Property Type="Int32" Name="productid" Nullable="false" />
+          <Property Type="String" Name="productname" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="qty" />
+          <Property Type="String" Name="image" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Brandid" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="sale" />
+          <Property Type="Boolean" Name="active" />
+          <Property Type="Int32" Name="visit" />
+          <Property Type="DateTime" Name="rts" Precision="3" />
+          <Property Type="String" Name="metatitle" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="varient">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="varient1" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="active" />
+          <Property Type="DateTime" Name="rts" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="friendsmobileModelStoreContainer" CdmEntityContainer="friendsmobileEntities">
+          <EntitySetMapping Name="AdminLogins">
+            <EntityTypeMapping TypeName="friendsmobileModel.AdminLogin">
+              <MappingFragment StoreEntitySet="AdminLogin">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="blog_detail">
+            <EntityTypeMapping TypeName="friendsmobileModel.blog_detail">
+              <MappingFragment StoreEntitySet="blog_detail">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="entrydate" ColumnName="entrydate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="brands">
+            <EntityTypeMapping TypeName="friendsmobileModel.brand">
+              <MappingFragment StoreEntitySet="brand">
+                <ScalarProperty Name="brandid" ColumnName="brandid" />
+                <ScalarProperty Name="brandName" ColumnName="brandName" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Colors">
+            <EntityTypeMapping TypeName="friendsmobileModel.Color">
+              <MappingFragment StoreEntitySet="Color">
+                <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+                <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+                <ScalarProperty Name="ColorValue" ColumnName="ColorValue" />
+                <ScalarProperty Name="Colorimg" ColumnName="Colorimg" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Courier_Detail">
+            <EntityTypeMapping TypeName="friendsmobileModel.Courier_Detail">
+              <MappingFragment StoreEntitySet="Courier_Detail">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FromWeight" ColumnName="FromWeight" />
+                <ScalarProperty Name="ToWeight" ColumnName="ToWeight" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="RajCourier_Fees" ColumnName="RajCourier_Fees" />
+                <ScalarProperty Name="RajCourier_Name" ColumnName="RajCourier_Name" />
+                <ScalarProperty Name="NICourier_Fees" ColumnName="NICourier_Fees" />
+                <ScalarProperty Name="NICourier_Name" ColumnName="NICourier_Name" />
+                <ScalarProperty Name="ROICourier_Fees" ColumnName="ROICourier_Fees" />
+                <ScalarProperty Name="ROICourier_Name" ColumnName="ROICourier_Name" />
+                <ScalarProperty Name="NECourier_Fees" ColumnName="NECourier_Fees" />
+                <ScalarProperty Name="NECourier_Name" ColumnName="NECourier_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dtl_ProductGallery">
+            <EntityTypeMapping TypeName="friendsmobileModel.dtl_ProductGallery">
+              <MappingFragment StoreEntitySet="dtl_ProductGallery">
+                <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+                <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="ImageCode" ColumnName="ImageCode" />
+                <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Galleries">
+            <EntityTypeMapping TypeName="friendsmobileModel.Gallery">
+              <MappingFragment StoreEntitySet="Gallery">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Loc_District">
+            <EntityTypeMapping TypeName="friendsmobileModel.Loc_District">
+              <MappingFragment StoreEntitySet="Loc_District">
+                <ScalarProperty Name="District_Code" ColumnName="District_Code" />
+                <ScalarProperty Name="District_Name" ColumnName="District_Name" />
+                <ScalarProperty Name="State_Code" ColumnName="State_Code" />
+                <ScalarProperty Name="District_Priority" ColumnName="District_Priority" />
+                <ScalarProperty Name="District_Active" ColumnName="District_Active" />
+                <ScalarProperty Name="DisCode" ColumnName="DisCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Loc_State">
+            <EntityTypeMapping TypeName="friendsmobileModel.Loc_State">
+              <MappingFragment StoreEntitySet="Loc_State">
+                <ScalarProperty Name="State_Code" ColumnName="State_Code" />
+                <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+                <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+                <ScalarProperty Name="State_Priority" ColumnName="State_Priority" />
+                <ScalarProperty Name="State_Active" ColumnName="State_Active" />
+                <ScalarProperty Name="CourierState" ColumnName="CourierState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="M_CategoryMaster">
+            <EntityTypeMapping TypeName="friendsmobileModel.M_CategoryMaster">
+              <MappingFragment StoreEntitySet="M_CategoryMaster">
+                <ScalarProperty Name="MainCategoryid" ColumnName="MainCategoryid" />
+                <ScalarProperty Name="MainCategoryName" ColumnName="MainCategoryName" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductSizeQuantities">
+            <EntityTypeMapping TypeName="friendsmobileModel.ProductSizeQuantity">
+              <MappingFragment StoreEntitySet="ProductSizeQuantity">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+                <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+                <ScalarProperty Name="urate" ColumnName="urate" />
+                <ScalarProperty Name="udiscount" ColumnName="udiscount" />
+                <ScalarProperty Name="arate" ColumnName="arate" />
+                <ScalarProperty Name="adiscount" ColumnName="adiscount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="registers">
+            <EntityTypeMapping TypeName="friendsmobileModel.register">
+              <MappingFragment StoreEntitySet="register">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="District" ColumnName="District" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="rts" ColumnName="rts" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="ip" ColumnName="ip" />
+                <ScalarProperty Name="Wallet" ColumnName="Wallet" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="Groupid" ColumnName="Groupid" />
+                <ScalarProperty Name="gst" ColumnName="gst" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="temp_ProColorSize">
+            <EntityTypeMapping TypeName="friendsmobileModel.temp_ProColorSize">
+              <MappingFragment StoreEntitySet="temp_ProColorSize">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="product_id" ColumnName="product_id" />
+                <ScalarProperty Name="size" ColumnName="size" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="rts" ColumnName="rts" />
+                <ScalarProperty Name="colorid" ColumnName="colorid" />
+                <ScalarProperty Name="urate" ColumnName="urate" />
+                <ScalarProperty Name="udiscount" ColumnName="udiscount" />
+                <ScalarProperty Name="arate" ColumnName="arate" />
+                <ScalarProperty Name="adiscount" ColumnName="adiscount" />
+                <ScalarProperty Name="random_no" ColumnName="random_no" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="temp_progallery">
+            <EntityTypeMapping TypeName="friendsmobileModel.temp_progallery">
+              <MappingFragment StoreEntitySet="temp_progallery">
+                <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+                <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="ImageCode" ColumnName="ImageCode" />
+                <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+                <ScalarProperty Name="random_no" ColumnName="random_no" />
+                <ScalarProperty Name="AID" ColumnName="AID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrnCarts">
+            <EntityTypeMapping TypeName="friendsmobileModel.TrnCart">
+              <MappingFragment StoreEntitySet="TrnCart">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CartId" ColumnName="CartId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrnOrderDetails">
+            <EntityTypeMapping TypeName="friendsmobileModel.TrnOrderDetail">
+              <MappingFragment StoreEntitySet="TrnOrderDetail">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+                <ScalarProperty Name="DisInvoiceNo" ColumnName="DisInvoiceNo" />
+                <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+                <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Rate" ColumnName="Rate" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Cashback" ColumnName="Cashback" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="NetAmount" ColumnName="NetAmount" />
+                <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+                <ScalarProperty Name="Delivered" ColumnName="Delivered" />
+                <ScalarProperty Name="Returned" ColumnName="Returned" />
+                <ScalarProperty Name="Dispatched" ColumnName="Dispatched" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+                <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
+                <ScalarProperty Name="DeliveryCharges" ColumnName="DeliveryCharges" />
+                <ScalarProperty Name="AdditionalCharges" ColumnName="AdditionalCharges" />
+                <ScalarProperty Name="RequestReason" ColumnName="RequestReason" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="pickupby" ColumnName="pickupby" />
+                <ScalarProperty Name="deliveredby" ColumnName="deliveredby" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrnOrderMains">
+            <EntityTypeMapping TypeName="friendsmobileModel.TrnOrderMain">
+              <MappingFragment StoreEntitySet="TrnOrderMain">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+                <ScalarProperty Name="Usercode" ColumnName="Usercode" />
+                <ScalarProperty Name="OrderAmount" ColumnName="OrderAmount" />
+                <ScalarProperty Name="WalletAmount" ColumnName="WalletAmount" />
+                <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+                <ScalarProperty Name="TotalQuantity" ColumnName="TotalQuantity" />
+                <ScalarProperty Name="DeliveryFees" ColumnName="DeliveryFees" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Paymode" ColumnName="Paymode" />
+                <ScalarProperty Name="TrnId" ColumnName="TrnId" />
+                <ScalarProperty Name="TrnStatus" ColumnName="TrnStatus" />
+                <ScalarProperty Name="OrderThrough" ColumnName="OrderThrough" />
+                <ScalarProperty Name="ShippingName" ColumnName="ShippingName" />
+                <ScalarProperty Name="ShippingAddress" ColumnName="ShippingAddress" />
+                <ScalarProperty Name="ShippingMobileNo" ColumnName="ShippingMobileNo" />
+                <ScalarProperty Name="ShippingEmailId" ColumnName="ShippingEmailId" />
+                <ScalarProperty Name="ShippingCity" ColumnName="ShippingCity" />
+                <ScalarProperty Name="ShippingZipcode" ColumnName="ShippingZipcode" />
+                <ScalarProperty Name="ShippingStats" ColumnName="ShippingStats" />
+                <ScalarProperty Name="Delivered" ColumnName="Delivered" />
+                <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+                <ScalarProperty Name="Returned" ColumnName="Returned" />
+                <ScalarProperty Name="Dispatched" ColumnName="Dispatched" />
+                <ScalarProperty Name="Settlement" ColumnName="Settlement" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+                <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
+                <ScalarProperty Name="PromoCodeId" ColumnName="PromoCodeId" />
+                <ScalarProperty Name="PromoCodeAmount" ColumnName="PromoCodeAmount" />
+                <ScalarProperty Name="DeliveryboyId" ColumnName="DeliveryboyId" />
+                <ScalarProperty Name="FranchiseMessage" ColumnName="FranchiseMessage" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrnWallets">
+            <EntityTypeMapping TypeName="friendsmobileModel.TrnWallet">
+              <MappingFragment StoreEntitySet="TrnWallet">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+                <ScalarProperty Name="TrnType" ColumnName="TrnType" />
+                <ScalarProperty Name="PromoCodeAmount" ColumnName="PromoCodeAmount" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="IsDeducted" ColumnName="IsDeducted" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+                <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="ReMark" ColumnName="ReMark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="wishlists">
+            <EntityTypeMapping TypeName="friendsmobileModel.wishlist">
+              <MappingFragment StoreEntitySet="wishlist">
+                <ScalarProperty Name="AID" ColumnName="AID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CartId" ColumnName="CartId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="ActiveStatus" ColumnName="ActiveStatus" />
+                <ScalarProperty Name="RTS" ColumnName="RTS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="friendsmobileModel.product">
+              <MappingFragment StoreEntitySet="product">
+                <ScalarProperty Name="metatitle" ColumnName="metatitle" />
+                <ScalarProperty Name="rts" ColumnName="rts" />
+                <ScalarProperty Name="visit" ColumnName="visit" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="sale" ColumnName="sale" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Brandid" ColumnName="Brandid" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="qty" ColumnName="qty" />
+                <ScalarProperty Name="productname" ColumnName="productname" />
+                <ScalarProperty Name="productid" ColumnName="productid" />
+                <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="varients">
+            <EntityTypeMapping TypeName="friendsmobileModel.varient">
+              <MappingFragment StoreEntitySet="varient">
+                <ScalarProperty Name="rts" ColumnName="rts" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="varient1" ColumnName="varient" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

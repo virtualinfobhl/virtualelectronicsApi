@@ -1,0 +1,791 @@
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+D:\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\sakshi\all apps\api data\WebAPI\CityStore\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\jyoti   latest  (6-5-19)\CityStore Api\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\CityStoreApiWeb(03-6-19)\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+F:\Neha Arora\C#\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Providers.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\WebGrease.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\EntityFramework.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.Razor.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+F:\Neha Arora\C#\API\CityStoreAPIWeb\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+D:\api working\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\api working\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\WebGrease.dll
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\api working\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+F:\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+F:\City StoreLatest\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\mscorlib.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.WebRequest.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Providers.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\WebGrease.dll
+F:\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.WebRequest.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+F:\City StoreLatest\CityStoreAPIWeb\bin\normidna.nlp
+F:\City StoreLatest\CityStoreAPIWeb\bin\normnfc.nlp
+F:\City StoreLatest\CityStoreAPIWeb\bin\normnfd.nlp
+F:\City StoreLatest\CityStoreAPIWeb\bin\normnfkc.nlp
+F:\City StoreLatest\CityStoreAPIWeb\bin\normnfkd.nlp
+F:\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+F:\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+F:\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\api all\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\mscorlib.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.WebRequest.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Providers.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\WebGrease.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\EntityFramework.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Net.Http.WebRequest.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.Razor.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\normidna.nlp
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\normnfc.nlp
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\normnfd.nlp
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\normnfkc.nlp
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\bin\normnfkd.nlp
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+F:\City StoreLatest - WithoutFilter\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\City StoreLatest - updated\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\WebGrease.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\City StoreLatest - updated\City StoreLatest - updated\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\WebGrease.dll
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\friendmobile\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile   app api\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\WebGrease.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\BACKUP ARPIT 25.24.2018\friendmobile   app api\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\WebGrease.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\EntityFramework.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+E:\arpit nuwal website & software backup 24.11.2018\now working\friendmobile api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\WebGrease.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojResolveAssemblyReference.cache
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\virtual product\2020\electronic\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll.config
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\WebGrease.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csproj.CoreCompileInputs.cache
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csproj.CopyComplete
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\virtualelectronics.virtualappstore.in\virtualelectronics api\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll.config
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\CityStoreAPIWeb.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\CityStoreAPIWeb.pdb
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\Antlr3.Runtime.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\EntityFramework.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\Newtonsoft.Json.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Net.Http.Formatting.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Helpers.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Http.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Http.WebHost.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Mvc.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Optimization.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Providers.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Razor.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\WebGrease.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\EntityFramework.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\Newtonsoft.Json.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Net.Http.Formatting.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Helpers.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Http.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Http.WebHost.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Mvc.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.Razor.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.Deployment.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\bin\System.Web.WebPages.Razor.xml
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csprojAssemblyReference.cache
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csproj.CoreCompileInputs.cache
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.csproj.CopyComplete
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.dll
+D:\github2\virtualelectronicsApi\CityStoreAPIWeb\obj\Debug\CityStoreAPIWeb.pdb
